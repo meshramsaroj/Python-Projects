@@ -66,9 +66,9 @@ def main():
     print("#"*40)
     print("\n\t :: USER MANUAL :: \n")
     print("#"*40)
-    print("\n\t1. Insert a new Couserses")
-    print("\n\t2. Show all Couserse")
-    print("\n\t3. Delete a course form Couserses \n")
+    print("\n\t1. Insert a new Courses")
+    print("\n\t2. Show all Courses")
+    print("\n\t3. Delete a course form Courses \n")
     print("#"*40)
     print("\n\t")
     choice = input("\n Enter a choice: ")
@@ -96,7 +96,7 @@ def main():
             print("\n")
 
     elif choice == "3":
-        record_id = input("\n Enter the COurse id: ")
+        record_id = input("\n Enter the Course id: ")
 
         if db.delete_data(record_id):
             print("\n Course was deleted with a success")
